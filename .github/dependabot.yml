@@ -4,7 +4,3 @@ updates:
   directory: "/WhiskyKit/"
   schedule:
     interval: daily
-- package-ecosystem: swift
-  directory: "/Whisky.xcodeproj/"
-  schedule:
-    interval: daily
