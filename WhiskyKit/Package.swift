@@ -30,7 +30,7 @@ let package = Package(
         )
     ],
     dependencies: [
-      .package(url: "git@github.com:SwiftPackageIndex/SemanticVersion.git", from: "0.3.0"),
+      .package(url: "https://github.com/SwiftPackageIndex/SemanticVersion", from: "0.3.0"),
       .package(url: "https://github.com/JohnSundell/CollectionConcurrencyKit.git", from: "0.1.0"),
       .package(url: "https://github.com/krzyzanowskim/CryptoSwift.git", from: "1.8.3"),
       .package(url: "https://github.com/jkandzi/Progress.swift", from: "0.4.0"),
@@ -54,7 +54,7 @@ let package = Package(
                 .product(name: "Sparkle", package: "Sparkle"),
                 .product(name: "ArgumentParser", package: "swift-argument-parser"),
                 .product(name: "SwiftyTextTable", package: "SwiftyTextTable"),
-                .product(name: "SourceKitten", package: "SourceKitten"),
+                .product(name: "SourceKitten", package: "sourcekitten"),
                 .product(name: "SWXMLHash", package: "SWXMLHash"),
                 .product(name: "Yams", package: "Yams"),
                 .product(name: "swift-syntax", package: "swift-syntax"),
